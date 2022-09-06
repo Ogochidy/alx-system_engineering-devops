@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -u
+echo $T | bc -l | xargs printf "%.2f"
